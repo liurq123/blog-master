@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: blog-video
+
+server:
+  port: 9003

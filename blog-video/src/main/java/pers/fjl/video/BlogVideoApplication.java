@@ -1,20 +1,15 @@
-package pers.fjl.extension;
+package pers.fjl.video;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-
 @SpringBootApplication
-@EnableCaching
 @EnableEurekaClient
-@MapperScan("pers.fjl.extension.dao")
-public class BlogExtensionApplication {
-
+@EnableCaching
+public class BlogVideoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BlogExtensionApplication.class, args);
+        SpringApplication.run(BlogVideoApplication.class, args);
     }
-
 }

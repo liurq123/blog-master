@@ -6,6 +6,7 @@ spring:
   application:
     name: blog-server #指定服务名
 
+
 # Mybatis-Plus 配置
 mybatis-plus:
   mapper-locations: classpath:/mapper/*.xml
